@@ -1,1 +1,1 @@
-# flutter-app-and-game-projects
+# flutter-structure-projects
