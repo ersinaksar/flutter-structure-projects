@@ -74,6 +74,7 @@ class AuthService with ChangeNotifier {
   Future<bool> signOut() async {
     try {
       await _auth.signOut();
+      durum = KullaniciDurumu.OturumAcilmamis;
       return true;
     } catch (e) {
       debugPrint("hata "
