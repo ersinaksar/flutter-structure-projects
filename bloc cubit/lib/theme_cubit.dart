@@ -6,8 +6,7 @@ class ThemeCubit extends Cubit<ThemeData> {
   //static yapınca sınıf değişkeni oluyor
   static final _acikTema = ThemeData(
       floatingActionButtonTheme: FloatingActionButtonThemeData(
-        foregroundColor: Colors.white,
-      ),
+          foregroundColor: Colors.white, backgroundColor: Colors.teal),
       brightness: Brightness.light);
 
   static final _koyuTema = ThemeData(
